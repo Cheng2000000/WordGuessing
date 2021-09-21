@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ModesController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#newWords" text="New Words" />
+            <Button mnemonicParsing="false" onAction="#review" text="Review Mistake" />
+            <Button mnemonicParsing="false" onAction="#viewStat" text="View  Statistics" />
+            <Button mnemonicParsing="false" onAction="#clearStat" text="Clear  Statistics" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
